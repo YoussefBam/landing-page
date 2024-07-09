@@ -1,0 +1,195 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.header,
+.footer,
+.one{
+    background-color: #1f2937;
+}
+
+.header h1{
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.one h1{
+    font-size: 48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+}
+
+.one p,
+.header a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.call,
+button{
+    background-color: #3882F6;
+}
+
+.two{
+    background-color: white;
+}
+
+.two h1{
+    color:#1F2937;
+}
+.two p{
+    color:black;
+}
+
+.three{
+    background-color: #E5E7EB;
+}
+
+.three div{
+    font-size: 36px;
+    font-style:italic ;
+    color:#1F2937;
+}
+.four h3{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#F9FAF8;
+}
+
+/*stretch all items to whole page*/
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.one,
+.two,
+.three{
+    flex:1;
+}
+
+/*header flex css*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.right-header{
+    display: flex;
+    gap:15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* hero flex css*/
+
+.one{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+.left-one{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap:10px;
+}
+
+button{
+    padding:5px;
+    max-width: 100px;
+    border-radius: 8px;
+    color:white;
+    font-size: 17px;
+}
+
+/*flex second section*/
+
+.two{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    text-align: center;
+    padding: 16px;
+}
+
+.bottom-two{
+    display:flex;
+    justify-content: center;
+    gap:40px;
+    
+
+}
+
+.card{
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+/*third section flex*/
+
+.three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding:16px;
+}
+
+.three div{
+    max-width: 900px;
+}
+.three h3{
+    align-self: flex-end;
+}
+
+/*fourth section flex*/
+
+.four{
+    display: flex;
+    flex-direction:column;
+    padding: 40px;
+    align-items: center;
+}
+
+.call{
+    width: 900px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    color:white;
+    border-radius: 16px;
+}
+
+.call button{
+    border-color: white;
+    padding: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    min-height: 30px;
+}
+
+
